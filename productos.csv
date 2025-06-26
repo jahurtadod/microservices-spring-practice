@@ -1,0 +1,51 @@
+id,name,description,category,price,stock,ubicacion
+1,Mouse Logitech M720,Versión mejorada para uso profesional,Redes,47.9,163,CUENCA/SUCURSAL4
+2,Teclado Mecánico Redragon,Versión mejorada para uso profesional,Accesorios,1229.95,176,QUITO/SUCURSAL2
+3,Monitor LG 24'',Alta duración y rendimiento,Componentes,639.73,87,AMBATO/SUCURSAL5
+4,Memoria USB Kingston 64GB,Conectividad avanzada,Electrónica,504.42,132,QUITO/SUCURSAL2
+5,Impresora HP DeskJet,Portátil y ligero,Redes,728.08,176,GUAYAQUIL/SUCURSAL3
+6,Auriculares Sony WH-1000XM4,Conectividad avanzada,Redes,699.8,5,LOJA/SUCURSAL1
+7,Disco Duro Externo Seagate 1TB,Alta duración y rendimiento,Gaming,1259.24,180,LOJA/SUCURSAL1
+8,Webcam Logitech C920,Portátil y ligero,Redes,63.47,90,AMBATO/SUCURSAL5
+9,Silla Gamer Cougar,Portátil y ligero,Redes,39.12,5,AMBATO/SUCURSAL5
+10,Tablet Samsung Galaxy Tab,Diseño ergonómico,Audio,1264.05,24,QUITO/SUCURSAL2
+11,Smartphone Xiaomi Redmi Note,Edición limitada,Audio,203.24,190,CUENCA/SUCURSAL4
+12,Router TP-Link Archer,Con garantía extendida,Oficina,690.4,163,QUITO/SUCURSAL2
+13,Proyector Epson X39,Versión mejorada para uso profesional,Audio,1490.45,67,GUAYAQUIL/SUCURSAL3
+14,Batería portátil Anker,Alta duración y rendimiento,Gaming,599.16,176,QUITO/SUCURSAL2
+15,Smartwatch Amazfit GTR,Edición limitada,Gaming,1493.02,26,CUENCA/SUCURSAL4
+16,Cable HDMI 2m,Versión mejorada para uso profesional,Almacenamiento,1322.76,133,CUENCA/SUCURSAL4
+17,Mousepad SteelSeries,Conectividad avanzada,Accesorios,1182.72,136,GUAYAQUIL/SUCURSAL3
+18,Altavoces Bose,Versión mejorada para uso profesional,Gaming,60.71,21,AMBATO/SUCURSAL5
+19,SSD Samsung EVO 500GB,Conectividad avanzada,Electrónica,491.69,113,AMBATO/SUCURSAL5
+20,Tarjeta Gráfica Nvidia RTX,Compatible con varios sistemas,Accesorios,1392.13,67,AMBATO/SUCURSAL5
+21,Memoria RAM Corsair 16GB,Versión mejorada para uso profesional,Componentes,432.22,191,CUENCA/SUCURSAL4
+22,Case ATX NZXT,Alta duración y rendimiento,Almacenamiento,580.31,169,GUAYAQUIL/SUCURSAL3
+23,Fuente de Poder EVGA,Alta duración y rendimiento,Electrónica,42.94,44,GUAYAQUIL/SUCURSAL3
+24,Switch Red D-Link,Con garantía extendida,Gaming,594.17,82,CUENCA/SUCURSAL4
+25,Cámara Canon EOS,Compatible con varios sistemas,Electrónica,467.79,98,LOJA/SUCURSAL1
+26,Micrófono Blue Yeti,Ideal para gamers y profesionales,Almacenamiento,148.22,118,QUITO/SUCURSAL2
+27,Cargador Universal,Conectividad avanzada,Componentes,1288.33,39,CUENCA/SUCURSAL4
+28,Kit limpieza PC,Ideal para gamers y profesionales,Redes,447.48,95,AMBATO/SUCURSAL5
+29,Soporte Monitor,Compatible con varios sistemas,Gaming,1441.14,154,GUAYAQUIL/SUCURSAL3
+30,Lector Tarjetas SD,Alta duración y rendimiento,Redes,817.73,133,GUAYAQUIL/SUCURSAL3
+31,Antena WiFi USB,Diseño ergonómico,Gaming,702.91,164,CUENCA/SUCURSAL4
+32,Disipador Cooler Master,Diseño ergonómico,Electrónica,1008.96,150,LOJA/SUCURSAL1
+33,Estabilizador Forza,Ideal para gamers y profesionales,Redes,634.48,91,GUAYAQUIL/SUCURSAL3
+34,Adaptador USB-C,Portátil y ligero,Audio,397.88,73,GUAYAQUIL/SUCURSAL3
+35,Auricular In-Ear JBL,Ideal para gamers y profesionales,Oficina,320.11,50,AMBATO/SUCURSAL5
+36,Mini proyector portátil,Con garantía extendida,Componentes,1034.67,121,GUAYAQUIL/SUCURSAL3
+37,Control Xbox Series X,Versión mejorada para uso profesional,Redes,167.27,147,AMBATO/SUCURSAL5
+38,Ventilador portátil,Alta duración y rendimiento,Redes,549.85,165,CUENCA/SUCURSAL4
+39,Mousepad RGB,Edición limitada,Redes,706.07,82,QUITO/SUCURSAL2
+40,Hub USB 4 puertos,Ideal para gamers y profesionales,Oficina,337.44,192,AMBATO/SUCURSAL5
+41,Tablet Huion,Versión mejorada para uso profesional,Electrónica,1117.36,64,CUENCA/SUCURSAL4
+42,Impresora térmica Epson,Compatible con varios sistemas,Oficina,1371.02,75,AMBATO/SUCURSAL5
+43,Batería CR2032,Con garantía extendida,Redes,193.91,99,GUAYAQUIL/SUCURSAL3
+44,Luces LED RGB,Alta duración y rendimiento,Audio,513.97,104,AMBATO/SUCURSAL5
+45,Cámara Web Full HD,Versión mejorada para uso profesional,Redes,460.18,186,CUENCA/SUCURSAL4
+46,Adaptador HDMI-VGA,Edición limitada,Gaming,210.66,198,GUAYAQUIL/SUCURSAL3
+47,Teclado Bluetooth,Con garantía extendida,Accesorios,968.03,70,AMBATO/SUCURSAL5
+48,Monitor portátil 15.6'',Alta duración y rendimiento,Gaming,42.8,166,GUAYAQUIL/SUCURSAL3
+49,Cargador Inalámbrico,Versión mejorada para uso profesional,Almacenamiento,739.3,23,AMBATO/SUCURSAL5
+50,Laptop Lenovo ThinkPad,Ideal para gamers y profesionales,Redes,819.93,133,AMBATO/SUCURSAL5
