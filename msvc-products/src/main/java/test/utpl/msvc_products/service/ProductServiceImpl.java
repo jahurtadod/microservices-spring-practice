@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
@@ -12,7 +13,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -24,8 +25,13 @@ import test.utpl.msvc_products.repository.ProductRepository;
 @Service
 public class ProductServiceImpl implements ProductService {
 
-    @Autowired
     private ProductRepository productRepository;
+    private Environment environment;
+
+    public ProductServiceImpl(ProductRepository productRepository, Environment environment) {
+        this.productRepository = productRepository;
+        this.environment = environment;
+    }
 
     @Override
     public String importProductsFromFile(MultipartFile file) {
@@ -211,7 +217,10 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public List<Product> findAll() {
-        return productRepository.findAll();
+        return (productRepository.findAll().stream().map(product -> {
+            product.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
+            return product;
+        }).collect(Collectors.toList()));
     }
 
     @Override

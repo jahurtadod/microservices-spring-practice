@@ -1,6 +1,7 @@
 package test.utpl.msvc_products.models.entities;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "products")
@@ -11,6 +12,9 @@ public class Product {
     private String description;
     private Double price;
     private Integer stock;
+
+    @Transient
+    private int port;
 
     public String getId() {
         return id;
@@ -50,6 +54,14 @@ public class Product {
 
     public void setStock(Integer stock) {
         this.stock = stock;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
     }
 
 }

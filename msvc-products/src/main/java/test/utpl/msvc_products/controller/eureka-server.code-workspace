@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../../eureka-server"
+		},
+		{
+			"path": "../../../../../../../../msvc-sales"
+		},
+		{
+			"path": "../../../../../../.."
+		},
+		{
+			"name": "gateway",
+			"path": "../../../../../../../../gateway"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
